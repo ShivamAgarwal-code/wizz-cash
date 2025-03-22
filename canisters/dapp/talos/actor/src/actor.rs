@@ -17,6 +17,7 @@ use ic_cdk::api::management_canister::http_request::{HttpResponse, TransformArgs
 use ic_cdk::caller;
 use ic_cdk_macros::*;
 use talos_mod::service::TalosService;
+use icp_sdk::sender;
 // ------------------
 //
 // **Project dependencies

@@ -20,6 +20,7 @@ export default function RainbowConnectButton() {
       const connected =
         ready &&
         account &&
+        mounted &&
         chain &&
         (!authenticationStatus ||
           authenticationStatus === 'authenticated');

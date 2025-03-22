@@ -1,8 +1,10 @@
+"use client";
+
 import { Button, Dropdown, List, MenuProps, Modal, Typography } from 'antd';
 import { useDispatch, useSelector } from 'react-redux';
 import { RootDispatch, RootState } from '@/store';
 import copy from 'copy-to-clipboard';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import IconWizz from '@/assets/icons/wizz.svg';
 import IconUnisat from '@/assets/icons/unisat.svg';
 import IconOkx from '@/assets/icons/okx.svg';

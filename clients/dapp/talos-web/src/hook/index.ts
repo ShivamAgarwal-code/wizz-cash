@@ -30,6 +30,8 @@ export type NetworkEntry = {
   mempoolUrl: string;
   type: string;
   symbol: string;
+  address: string;
+  id: string;
   mempoolApi: string;
   network: Network;
   supportInscriptions: boolean;
